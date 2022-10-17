@@ -9,10 +9,12 @@ export const config: ScullyConfig = {
   // add spsModulePath when using de Scully Platform Server,
   outDir: './dist/static',
   routes: {
+    '/blog/': { type: 'contentFolder' },
     '/blog/:slug': {
       type: 'contentFolder',
       slug: {
-        folder: "./blog"
+        folder: './blog'
       }
-    },}
+    }
+  }
 };
