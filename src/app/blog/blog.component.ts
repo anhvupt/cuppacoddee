@@ -7,9 +7,6 @@ declare var ng: any;
   selector: 'app-blog',
   templateUrl: './blog.component.html',
   styleUrls: ['./blog.component.scss'],
-  preserveWhitespaces: true,
-  encapsulation: ViewEncapsulation.Emulated
-
 })
 export class BlogComponent implements OnInit {
   ngOnInit() {}
